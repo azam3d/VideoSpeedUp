@@ -13,6 +13,8 @@
 		C5B98819252DEC39009308F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5B98817252DEC39009308F8 /* Main.storyboard */; };
 		C5B9881B252DEC3C009308F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5B9881A252DEC3C009308F8 /* Assets.xcassets */; };
 		C5B9881E252DEC3C009308F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5B9881C252DEC3C009308F8 /* LaunchScreen.storyboard */; };
+		C5B98827252DECB4009308F8 /* VSVideoSpeeder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B98826252DECB4009308F8 /* VSVideoSpeeder.swift */; };
+		C5BC7C18252DEEB100279933 /* monkey.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C5BC7C16252DED5A00279933 /* monkey.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		C5B9881A252DEC3C009308F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5B9881D252DEC3C009308F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5B9881F252DEC3C009308F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5B98826252DECB4009308F8 /* VSVideoSpeeder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VSVideoSpeeder.swift; sourceTree = "<group>"; };
+		C5BC7C16252DED5A00279933 /* monkey.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = monkey.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,9 @@
 				C5B98811252DEC39009308F8 /* AppDelegate.swift */,
 				C5B98813252DEC39009308F8 /* SceneDelegate.swift */,
 				C5B98815252DEC39009308F8 /* ViewController.swift */,
+				C5B98826252DECB4009308F8 /* VSVideoSpeeder.swift */,
 				C5B98817252DEC39009308F8 /* Main.storyboard */,
+				C5BC7C16252DED5A00279933 /* monkey.mp4 */,
 				C5B9881A252DEC3C009308F8 /* Assets.xcassets */,
 				C5B9881C252DEC3C009308F8 /* LaunchScreen.storyboard */,
 				C5B9881F252DEC3C009308F8 /* Info.plist */,
@@ -124,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5BC7C18252DEEB100279933 /* monkey.mp4 in Resources */,
 				C5B9881E252DEC3C009308F8 /* LaunchScreen.storyboard in Resources */,
 				C5B9881B252DEC3C009308F8 /* Assets.xcassets in Resources */,
 				C5B98819252DEC39009308F8 /* Main.storyboard in Resources */,
@@ -140,6 +147,7 @@
 				C5B98816252DEC39009308F8 /* ViewController.swift in Sources */,
 				C5B98812252DEC39009308F8 /* AppDelegate.swift in Sources */,
 				C5B98814252DEC39009308F8 /* SceneDelegate.swift in Sources */,
+				C5B98827252DECB4009308F8 /* VSVideoSpeeder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
